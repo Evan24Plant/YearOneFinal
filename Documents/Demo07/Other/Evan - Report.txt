@@ -1,0 +1,21 @@
+4.	Problems and Challenges
+
+Problem: Adopting change requests into "completed" code.
+Solution: Re-think the code logic to effectively accommodate new and existing functionality.
+
+
+
+5.	Skill Learned
+
+- How to work on code together with another teammate.
+- How to organize project tasks with MS Project.
+- How to design code to be more modular (i.e. using header/footer.php files).
+- How to integrate external code (i.e. Stripe).
+- How to use php to create dynamic web pages.
+- How to use php to interact with a database.
+
+
+
+6.	Proposed Changes
+
+- Plan out the design/pages needed more carefully.

@@ -1,0 +1,32 @@
+
+				Order No. 69
+						
+						
+				Thank you for ordering from BiFrost! Here is your detailed order info: 
+				
+				
+				Shipping to this address:
+				-------------------------
+				
+				1234 Random Street
+				Victoria, BC                                 
+				Canada
+				V1V2V3     
+				
+				
+				Games you ordered:
+				-------------------------
+				
+			Super Mario Odyssey           Quantity: 2
+                        Nintendo Switch            Price: $159.98
+                    
+                Overwatch           Quantity: 1
+                        PS4            Price: $79.99
+                    
+                Nier: Automata           Quantity: 1
+                        PC            Price: $49.99
+                    
+                
+                    
+                     Total Price: $289.96
+            

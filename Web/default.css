@@ -1,0 +1,815 @@
+@charset "utf-8";
+/* CSS Document */
+
+	/* Regular*/
+
+@font-face {
+    font-family: Georgia, serif;
+    	font-weight: normal;
+    	font-style: normal;
+
+}
+#banner {
+	position:static;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 75%;
+	height: 75%;
+}
+
+
+#signup {
+	padding-top: 100px;
+	
+}
+
+
+.quantity {
+	height: 30px;
+	width:50px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	text-align: center;
+	margin-left:10px;
+}
+
+.qButton {
+	margin-bottom: 5px;
+}
+
+.rButton {
+	margin-bottom: 5px;
+	margin-right: 20px;
+	float: right;
+}
+
+.gamePrice {
+	float:right;
+	margin-top: 5px;
+	padding-right: 10px;
+	margin-right: 2vw;
+	padding-left: 40px;
+}
+.gameNameHistory {
+	padding-left: 60px;
+	font-size: 1.4vw;
+
+}
+.gamePriceHistory {
+	float: right;
+	padding-right: 50px;
+
+}
+.totalHistory {
+	float: right;
+	padding-right: 50px;
+}
+.quantityHistory {
+	float:right;
+	margin: auto;
+   	padding-right: 80px;
+	
+}
+.productsHistory{
+	font-size: 17px;
+	font-family: Georgia, serif;
+	overflow: hidden;
+	border: 2px solid aliceblue;
+	border-radius:15px;
+	
+	text-align: center;
+	color: black;
+	padding: 8px;
+	padding-left: 1px;
+	overflow: hidden;
+	width: 25%;
+
+}
+
+
+.cartImg {
+	position: relative;
+	width: 100px;
+	width: 17vw;
+	height: auto;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-right: 30px;
+
+}
+
+.cartGameName {
+	background-color: white;
+	font-size: 25px;
+	font-size: 2vw;
+	font-family: Georgia, serif;
+	overflow: hidden;
+	border: 2px solid aliceblue;
+	border-radius:15px;
+	text-align: center;
+	color: black;
+	padding: 8px;
+	padding-left: 1px;
+	overflow: hidden;
+	width: 25%;
+	box-shadow: -8px 12px 15px #9eb7d6;
+	margin-bottom: 20px;
+}
+
+.cartCname {
+	border: 2px solid aliceblue;
+	border-radius:15px;
+	text-align: center;
+	color: black;
+	font-size: 1.3vw;
+	padding: 8px;
+	width: 10%;
+	margin-left: 50px;
+}
+
+.checkoutPrice{
+	float:right;
+	padding-right: 35px;
+}
+.checkoutTotal {
+	float:right;
+	padding-right: 35px;
+}
+.images {
+	/*add css to make images to position on the form*/
+	position: static;
+	margin-bottom: 10px;
+	float: right;
+	width: 300px;
+	width: 20vw;
+	height: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+	
+}
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.flex-container > div {
+	background-color: #d4dfed;
+	border-color: aliceblue;
+	border-width: 2px;
+	border-style: double;
+	width: 17.5vw;
+	height: auto;
+	margin: 10px; 
+	align-content: center;
+	border-radius: 15px;
+	position: relative;
+	padding:8px;
+	box-shadow: -8px 12px 15px #9eb7d6;
+}
+.clearfix {
+	float: center;
+}
+
+.price {
+	text-align: center;
+	font-size: 30px;
+	font-size: 1.3vw;
+	color: black;
+	border: 2px solid aliceblue;
+	border-radius:15px;
+	padding: 10px;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	overflow: hidden;
+	background-color: white;
+	width: 75%;
+	box-shadow: -8px 12px 15px #9eb7d6;
+	margin-left: 1.5vw;
+	position: absolute;
+	bottom: 0px;
+}
+
+
+.price:hover {
+	background-color:aliceblue;
+}
+.price:active {
+	background-color:#7a9cc7;
+	box-shadow: -4px 6px 7.5px #9eb7d6;
+	outline: none;
+}
+.price:focus {
+	outline: none;
+}
+
+.price2 {
+	text-align: center;
+	font-size: 30px;
+	font-size: 1.3vw;
+	color: black;
+	border: 2px solid aliceblue;
+	border-radius:15px;
+	padding: 10px;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	overflow: hidden;
+	background-color: white;
+	width: 75%;
+	box-shadow: -8px 12px 15px #9eb7d6;
+	margin-left: 1.5vw;
+}
+
+
+.price2:hover {
+	background-color:aliceblue;
+}
+.price2:active {
+	background-color:#7a9cc7;
+	box-shadow: -4px 6px 7.5px #9eb7d6;
+	outline: none;
+}
+.price2:focus {
+	outline: none;
+}
+
+.cost {
+	font-size: 25px;
+	font-size: 2vw;
+	text-decoration:none;
+}
+.cost:active {
+	outline: none;
+}
+.cost:focus {
+	outline:none;
+}
+
+.cart {
+	position: absolute;
+	float: right;
+	width: auto;
+	height: 55px;
+	height: 1vw;
+	margin-left: 1vw;
+	margin-top: .5vw;
+}
+
+.consoleName {
+	/*add css for console name*/
+	color: black;
+	font-size: 20px;
+}
+
+.gameNameProduct {
+	font-size: 40px;
+	font-size: 3vw;
+	font-family: Georgia, serif;
+	overflow: hidden;
+	border: 2px solid aliceblue;
+	border-radius:10%;
+	text-align: center;
+	color: black;
+	padding: 8px;
+	overflow: hidden;
+	width: 50%;
+}
+
+.gameName {
+	background-color: white;
+	font-size: 40px;
+	font-size: 1.5vw;
+	font-family: Georgia, serif;
+	overflow: hidden;
+	border: 2px solid aliceblue;
+	border-radius:10%;
+	text-align: center;
+	color: black;
+	padding: 5px;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	overflow: hidden;
+	width: 85%;
+	box-shadow: -4px 8px 10px #9eb7d6;
+	margin-left: 1.4vw;
+	margin-bottom: 80px;
+	position: sticky;
+	top:0.1vw;
+}
+.gameName:hover{
+	background-color: aliceblue;
+	
+}
+.gameName:active{
+	background-color: #7a9cc7;
+	box-shadow: -2px 4px 5px #9eb7d6;
+}
+
+.homeToProducts {
+	font-size: 40px;
+	font-size: 3vw;
+	font-family: Georgia, serif;
+	overflow: hidden;
+	border: 2px solid aliceblue;
+	border-radius:10%;
+	text-align: center;
+	color: black;
+	padding: 8px;
+	overflow: hidden;
+	width: 50%;
+	box-shadow: -8px 12px 15px #9eb7d6;
+}
+.homeToProducts:hover {
+	background-color: aliceblue;
+}
+.homeToProducts:active {
+	background-color: #9eb7d6;
+}
+.homeToProducts:focus {
+	outline: none;
+}
+.genreSelect {
+		padding-right: 190px;
+		float: right;
+		
+		
+	}
+	
+.viewing{
+		color:black;
+		outline: solid aliceblue 2px;
+	}
+
+#logOut{
+	text-align:center;
+	
+	
+}
+	
+#subtotal {
+	float: right;
+	padding-right: 10px;
+	margin-top: 0;
+}
+
+#total {
+	margin-top: 0;
+}
+
+#checkOutButton {
+	margin-bottom: 5px;
+}
+
+#clearCart {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#cartDiv {
+	padding-bottom: 0;
+	margin-bottom: 20px;
+}
+.dropdown {
+	background-color: white;
+	border: 2px aliceblue;
+	border-radius: 10px;
+	color: black;
+	padding: 7px 25px 7px;
+	margin-top: 18px;
+	box-shadow: -8px 12px 15px #C2C2C2;
+}
+.backProducts {
+	box-shadow: -8px 12px 15px #C2C2C2;
+}
+
+input[type=submit].greyBackButtons {
+	box-shadow: -8px 12px 15px #C2C2C2;
+}
+input[type=submit].greyBackButtons:active {
+	outline: none;
+	background-color:#a9a9a9;
+	border: 2px aliceblue;
+	box-shadow: -4px 6px 7.5px #C2C2C2;
+}
+input[type=submit].greyBackButtons:focus {
+	outline: none;
+}
+input[type=button], input[type=submit], input[type=reset] {
+	font-size: 1.2vw;
+	font-family:Georgia, serif;
+	background-color: white;
+	border: 2px aliceblue;
+	border-radius: 10px;
+	color: black;
+	padding: 7px 25px 7px;
+	box-shadow: -4px 8px 10px #9eb7d6;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+	background-color: aliceblue;
+	border: 2px aliceblue;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
+	background-color: #7a9cc7;
+	border: 2px aliceblue;
+	box-shadow: -2px 4px 5px #9eb7d6;
+	
+}
+
+input[type=button]:focus, input[type=submit]:focus, input[type=reset]:focus {
+	outline: none;
+}
+
+hr {
+	margin-top: 15px;
+	border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #D1D1D1, #8c8b8b, #D1D1D1);
+}
+a:link {
+	color: #555555;
+}
+a:visited {
+	color: #555555;
+}
+a:active {
+	outline: none;
+}
+a:focus {
+	outline:none;
+}
+
+h1{
+		font-size: 2vw;
+		float:left;
+		align-content: center;
+		list-style-type: none;
+		padding: 8px;
+		margin: 0;
+		overflow: hidden;
+		background-color:lightsteelblue;
+		border: 2px solid aliceblue;
+		border-radius:10%;
+		color: #555555;
+}
+	header {
+		padding: 0.5em;
+		background-image: repeating-radial-gradient(aliceblue,lightsteelblue,#D1D1D1);
+		clear: left;
+		border-radius: 0;
+		text-align: center;
+		
+	}
+	footer {
+		padding: 2em;
+		background-image: repeating-radial-gradient(aliceblue,lightsteelblue,#D1D1D1);
+		clear: left;
+		text-align: center;
+		border-radius: 0;
+		color: #555555;
+	}
+	nav {
+		align-content: left;
+		margin: 10px;
+		padding: 0;
+		
+	}
+	nav ul {
+		float:right;
+		align-content: center;
+		list-style-type: none;
+		padding: 8px 0;
+		margin: 0;
+		overflow: hidden;
+		background-color:lightsteelblue;
+		border: 2px solid aliceblue;
+		border-radius:15px;
+		box-shadow: -5px 8px 10px #C2C2C2;
+	}
+	nav ul a {
+		align-content: center;
+		text-decoration: none;
+		
+	}
+	article {
+		padding: 5em;
+		position: relative;
+	}
+	nav ul li{ 
+		float: left;
+		
+	}
+	nav ul li a {
+		color: #555555;
+		padding: 10px;
+		margin: 20px;
+		text-decoration: none;
+		transition: 0.3s;
+		font-size: 20px;
+		font-size: 1.3vmax;
+		font-family: Georgia, serif;
+		
+	}
+	nav ul li a.loginButton {
+		color: #555555;
+		padding: 10px;
+		margin: 20px;
+		text-decoration: none;
+		transition: 0.3s;
+		
+		font-size: 1.5vmax;
+		font-family: Georgia, serif;
+		
+	}
+	
+	
+
+nav ul li a:hover {background-color:aliceblue;}
+nav ul li a:active {background-color:#9eb7d6;}
+nav ul:active{box-shadow: -3px 4px 5px #C2C2C2;}
+nav ul li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+	nav ul li:not(:first-child) {display: none;}
+	nav ul li.icon {
+		float: right;
+		display: inline-block;
+	}
+}
+@media screen and (max-width:680px) {
+	nav ul.responsive {position: relative;}
+	nav ul.responsive li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+}
+
+nav ul.responsive li {
+	float: none;
+	display: inline;
+}
+
+nav ul.responsive li a {
+	display: block;
+	text-align: left;
+}
+
+table, th, td {
+    border: 1px solid aliceblue;
+	
+	
+}
+.openNavigation {
+	font-size:40px;
+	cursor:pointer;
+	padding: 8px;
+	padding-top: 20px;
+	
+}
+.fixed {
+	position: fixed;
+	top:0;
+	z-index: 99999; 
+}
+
+
+
+.textBack {
+	width:98%;
+	padding:20px;
+	margin: 20px;
+	color:black;
+	border: 5px double aliceblue;
+	border-radius:15px;
+	background-color:  lightsteelblue;
+	font-family: Georgia, serif;
+	box-shadow: -8px 12px 15px #C2C2C2;
+	position: relative;
+	
+}
+.console{
+	text-align: right;
+	width:100%;
+}
+
+html { 
+  background:#D1D1D1; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	width:auto\9;/*IE8*/
+	
+}
+
+
+#TOSlist {
+	padding-bottom: 120px;
+	padding-left: 50px;
+	padding-right:30px;
+}
+
+
+
+
+
+
+
+.TOSsubmit {
+    background-color: white;
+    border: 2px solid aliceblue;
+    color: black;
+    padding: 20px 37px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+	margin-right:5vw;
+	margin-left:14vw;
+	box-shadow: -6px 10px 12px #9eb7d6;
+}
+	
+
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: lightsteelblue; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.TOSnav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: lightsteelblue; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 25px 8px 22px;
+    text-decoration: none;
+    font-size: 25px;
+    font-size: 1.7vw;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+	
+	
+}
+
+.TOSnav a {
+    padding: 8px 25px 8px 22px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+	
+	
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    background-color: #f1f1f1;
+}
+.sidenav a:active {
+    background-color: #9eb7d6;
+}
+.TOSnav a:hover {
+    background-color: #f1f1f1;
+}
+.TOSnav a:active {
+    background-color: #9eb7d6;
+}
+.TOSsubmit:hover {
+	background-color: #f1f1f1;
+}
+.TOSsubmit:active {
+	background-color: #9eb7d6;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    font-size: 2.5vw;
+    margin-left: 50px;
+}
+
+.TOSnav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.TOSnav{
+   overflow-y: auto;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+	.TOSnav {padding-top: 15px;}
+    .TOSnav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* flying bird */
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:300');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+
+.container {
+	z-index: 1;
+	position: relative;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	// min-height: 50vh;
+	min-height: 30rem;
+	background-blend-mode: soft-light;
+	background-size: cover;
+	background-position: center center;
+	padding: 2rem;
+}
+
+.bird {
+	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells.svg);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	width: 352px;
+	height: 500px;
+	will-change: background-position;
+	
+	animation-name: fly-cycle;
+	animation-duration: 1s;
+	animation-delay: -0.5s;
+	animation-timing-function: steps(10);
+	animation-iteration-count: infinite;
+}
+
+.bird-container {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	will-change: transform;
+}
+
+@keyframes fly-cycle {
+	
+	100% {
+		background-position: -3600px 0;
+	}
+	
+}
